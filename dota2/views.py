@@ -27,7 +27,7 @@ class PlayerDetailedView(generics.ListAPIView):
 
     def get_queryset(self):
         #result = Player.objects.get(self.request.dota2_id)
-        
+
         logging.info(self.request.data)
         return
 
